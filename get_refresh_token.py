@@ -11,7 +11,7 @@ os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 # --- IMPORTANT: UPDATE THIS PATH ---
 # Replace with the actual absolute path to your client_secret JSON file.
-CLIENT_SECRETS_FILE = 'C:\Academics\Main_project\client_secret_1087297200726-5ard5g1u65fk3fd5erikcqu13nlv7qls.apps.googleusercontent.com.json'  # <-- UPDATE THIS LINE
+CLIENT_SECRETS_FILE = 'path to the clinet.json file'  # <-- UPDATE THIS LINE
 
 # These scopes MUST match exactly what you configured in the Google Cloud Console
 SCOPES = ['https://www.googleapis.com/auth/drive.file', 'https://www.googleapis.com/auth/drive']
